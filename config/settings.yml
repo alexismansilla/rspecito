@@ -1,0 +1,13 @@
+default: &default
+  dbdata_url: https://api.themoviedb.org/3
+  dbdata_apikey: <%= ENV['DBDATA_APIKEY'] %>
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+
+production:
+  <<: *default

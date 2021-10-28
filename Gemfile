@@ -33,7 +33,14 @@ group :test do
   gem 'chromedriver-helper'
   gem 'rspec-rails'
   gem 'selenium-webdriver'
+  gem 'webmock'
+  gem 'vcr'
 end
+
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Faraday is an HTTP client library that provides a common interface over many adapters (such as Net::HTTP)
+gem 'faraday'

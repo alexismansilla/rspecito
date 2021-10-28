@@ -1,0 +1,46 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/eeijXm3553xvuFbkPFkDG6CLCbQ.jpg",
+            "genre_ids": [
+                12,
+                18,
+                878
+            ],
+            "id": 438631,
+            "original_language": "en",
+            "original_title": "Dune",
+            "overview": "El hijo de una familia noble trata de vengarse de la muerte de su padre al mismo tiempo que salva un planeta rico en especias que se le encomienda proteger. Nueva adaptación al cine de las novelas de Frank Herbert, que ya fueron trasladadas a la gran pantalla por David Lynch en 1984.",
+            "popularity": 7317.173,
+            "poster_path": "/ehVBcwjx7EdtDeLVTVeNaTpy3fS.jpg",
+            "release_date": "2021-09-15",
+            "title": "Dune",
+            "video": false,
+            "vote_average": 8,
+            "vote_count": 2720
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
+            "genre_ids": [
+                878,
+                28
+            ],
+            "id": 580489,
+            "original_language": "en",
+            "original_title": "Venom: Let There Be Carnage",
+            "overview": "Eddie Brock (Tom Hardy) y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte (Woody Harrelson) se infecta con un simbionte propio.",
+            "popularity": 6508.46,
+            "poster_path": "/kz7xJLowO4x0BpcB1IJb9uIXgrq.jpg",
+            "release_date": "2021-09-30",
+            "title": "Venom: Habrá Matanza",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 1207
+        }
+    ],
+    "total_pages": 500,
+    "total_results": 10000
+}
