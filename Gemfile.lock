@@ -203,6 +203,7 @@ GEM
     tilt (2.0.10)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
+    vcr (6.0.0)
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -237,6 +238,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   selenium-webdriver
   tzinfo-data
+  vcr
   web-console (>= 3.3.0)
   webmock
 
