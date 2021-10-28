@@ -35,6 +35,7 @@ require 'webmock/rspec'
 WebMock.allow_net_connect!
 
 require 'vcr'
+require 'dummy'
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/cassettes'
