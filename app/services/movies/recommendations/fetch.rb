@@ -7,6 +7,8 @@ module Movies
       attribute :movie_id, :integer
 
       def call
+        return UNPROCESSABLE if movie_id.blank?
+
         results
       end
 
@@ -15,6 +17,12 @@ module Movies
       rescue JSON::ParserError
         nil
       end
+
+      private
+
+      UNPROCESSABLE = 'The movie ID was not found'
+
+      private_constant :UNPROCESSABLE
 
       def url
         "#{settings['dbdata_url']}/movie/#{movie_id}/recommendations?api_key=#{settings['dbdata_apikey']}&language=es-ES&page=1"
